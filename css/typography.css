@@ -1,0 +1,471 @@
+@font-face {
+    font-family: "Grava-Normal";
+    font-style: normal;
+    font-weight: 400;
+  
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Grava-Normal"),
+         /* Если не получилось, загрузит woff2 */
+        url("../assets/font/Grava-Normal.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит ttf */
+        url("../assets/font/Grava-Normal.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Grava-Semibold";
+    font-style: normal;
+    font-weight: 600;
+  
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Grava"),
+         /* Если не получилось, загрузит woff2 */
+         url("../assets/font/Grava-SemiBold.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит ttf */
+        url("../assets/font/Grava-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Grava Display";
+    font-style: normal;
+    font-weight: 400;
+  
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Grava"),
+         /* Если не получилось, загрузит woff2 */
+         url("../assets/font/GravaDisplay-Bold.woff2") format("woff2"),
+          /* Если браузер не поддерживает woff2, загрузит ttf */
+        url("../assets/font/GravaDisplay-Bold.ttf") format("truetype");
+}
+ 
+
+@font-face {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+  
+    /* Браузер сначала попробует найти шрифт локально */
+    src:local("Manrope"),
+         /* Если не получилось, загрузит woff2 */
+        url("../assets/font/Manrope-Regular.woff2") format("woff2"),
+           /* Если браузер не поддерживает woff2, загрузит ttf */
+        url("../assets/font/Manrope-Regular.ttf") format("truetype");
+}
+
+.section__title {
+    color: #333;
+    font-size: 48px;
+    font-family: 'Grava Display';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 119.99%; /* 57.595px */
+    letter-spacing: -1.44px;
+}
+
+.section__title-white {
+    color: #fff;
+    font-size: 48px;
+    font-family: 'Grava Display';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 119.99%; /* 57.595px */
+    letter-spacing: -1.44px;
+}
+
+.section__subtitle {
+    color: #333;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.99%; /* 23.998px */
+}
+
+.section__subtitle-white {
+    color: #fff;
+
+    font-family: 'Grava-Normal';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 119.99%; /* 23.998px */
+}
+
+.section__subtitle-blue {
+    color: #34314F;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.99%; /* 23.998px */
+}
+
+.achievement-block__subname {
+    color: #1B192A;
+
+    font-family: 'Grava-Normal';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 103%; /* 32.96px */
+}
+
+
+
+.achievement-block__item {
+    color: #000;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.99%; /* 23.998px */
+}
+
+
+.swiper-card__num {
+    color: rgba(155, 93, 229, 0.60);
+
+    font-family: 'Grava Display';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 119.99%; /* 76.794px */
+}
+
+.swiper-card__title {
+    color:#000;
+
+    font-family: 'Grava-Semibold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103%; /* 24.72px */
+}
+
+.swiper-card__subtitle {
+    color:#333;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.99%; /* 23.998px */
+}
+
+h3 {
+    color: #fff;
+
+
+    font-family: 'Grava-Normal';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 103%; /* 32.96px */
+}
+
+h5 {
+    color: #9B5DE5;
+
+
+    font-family: 'Grava-Normal';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 103%; /* 32.96px */
+}
+
+.quiz-form__min {
+    color: #FFF;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.99%; /* 23.998px */
+}
+
+.quiz-form__max {
+    color: #FFF;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.99%; /* 23.998px */
+}
+
+.custom-box {
+    color: #FFF;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.99%; /* 23.998px */
+}
+
+.form-label {
+    color: #9B5DE5;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.99%; /* 23.998px */
+}
+
+.form-textarea-label {
+    color: #9B5DE5;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.99%; /* 23.998px */
+}
+
+
+.btn-secondary {
+    color: #FFF;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.99%; /* 23.998px */
+}
+
+p {
+    color: #FFF;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.99%; /* 23.998px */ 
+}
+
+.quiz-form__input {
+    color: #000;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.99%; /* 23.998px */
+}
+
+.quiz-form__val {
+    color:#9B5DE5;
+    text-align: center;
+
+    font-family: 'Grava-Semibold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103%; /* 24.72px */
+}
+
+.quiz-form__val span {
+    color:#9B5DE5;
+    text-align: center;
+
+    font-family: 'Grava-Semibold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103%; /* 24.72px */
+}
+
+.quiz-form__value {
+    color:#9B5DE5;
+    text-align: center;
+
+    font-family: 'Grava-Semibold';
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103%; /* 24.72px */    
+}
+
+.quiz-form__buttons {
+    color: #FFF;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 119.99%; /* 23.998px */
+}
+
+.form-popup__btn {
+    color: #FFF;
+
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 119.99%; /* 23.998px */
+}
+
+.btn-glare-silver {
+    color: #333;
+
+    font-family: 'Grava-Semibold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 28.8px */
+    letter-spacing: -0.72px;
+}
+
+
+.main-hero__title {
+    color:#FFF;
+    text-align: center;
+
+    font-family: 'Grava Display';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 119.99%; /* 57.595px */
+    letter-spacing: -1.44px;
+    text-align: center;
+
+}
+
+.main-hero__scrollto {
+    color:#FFF;
+
+    font-family: 'Grava-Normal';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103%; /* 24.72px */
+
+}
+
+.menu {
+    color:#FFF;
+    text-align: center;
+
+    
+    font-family: 'Grava-Normal';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103%; /* 24.72px */
+}
+
+body > div.wrapper > main > section.opportunities > div > div > div.opportunities__info > div.section__title {
+    margin-bottom: 40px;
+}
+
+.flying-cards__subtitle {
+    color:#333;
+
+    font-family:'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.99%; /* 23.998px */
+}
+
+.flying-cards__price {
+    color: #333;
+
+    font-family: 'Grava-Semibold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103%; /* 24.72px */
+}
+
+.bonus__num {
+    color: rgba(255, 255, 255, 0.30);
+
+    font-family: 'Grava-Semibold';
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 103%; /* 131.84px */
+}
+
+.bonus__card {
+    color: var(--Black, #333);
+
+    font-family: 'Grava-Normal';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 103%; /* 24.72px */
+}
+
+
+div.footer-form__bottom > div.section__title-white {
+    text-align: center;
+}
+
+.footer-form__title {
+    color:#fff;
+    font-family: 'Grava-SemiBold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 103%;
+}
+
+.footer-form__subtitle {
+    color:#fff;
+    font-family: 'Grava-Normal';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 103%;
+}
+
+body > div.wrapper > section > div > div > div > div > div.section__title-white {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+body > div.wrapper > main > section.team > div > div > div.section__title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.team {
+    padding: 200px 0;
+}
+
+.team-card__name {
+    color: #fff;
+    font-family: 'Grava-Semibold';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 103%;
+}
+
+.team-card__name > span {
+    color: #fff;
+    font-family: 'Grava-Normal';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 103%;
+}
+
+.form__error {
+    color: #fff;
+    font-family: 'Grava-Semibold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 103%;
+}
+}
