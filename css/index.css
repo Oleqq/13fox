@@ -390,6 +390,7 @@ div.swiper-slide.team-card.swiper-slide {
     font-style: normal;
     font-weight: 300;
     line-height: 119.99%;
+    height: 50px;
 }
 .btn-wrap button:hover {
 
