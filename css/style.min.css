@@ -1721,7 +1721,7 @@ body:after {
     width: 10px;
     height: 10px;
     margin: 0 15px;
-    outline: 1px solid #9B5DE5;
+    border: 1px solid #9B5DE5;
     background: none;
     opacity: 1;
 }
