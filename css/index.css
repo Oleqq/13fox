@@ -43,20 +43,20 @@ div.achievement-block__wrapper.swiper-slide {
 
 .slidePrev-btn-2 {
     cursor: pointer;
-    transition: 0.25s ease-in !important;
+    transition: 0.25s ease-in;
 }
 
 .slideNext-btn-2 {
     cursor: pointer;
-    transition: 0.25s ease-in !important;
+    transition: 0.25s ease-in;
 }
 
-.slidePrev-btn-2 :hover {
+.slidePrev-btn-2:hover {
     transform: scale(1.25);
     transition: 0.25s ease-in;
 }
 
-.slideNext-btn-2 :hover {
+.slideNext-btn-2:hover {
     transform: scale(1.25);
     transition: 0.25s ease-in;
 }
