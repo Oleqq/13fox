@@ -41,6 +41,26 @@ div.achievement-block__wrapper.swiper-slide {
 }
 
 
+.slidePrev-btn-2 {
+    cursor: pointer;
+    transition: 0.25s ease-in;
+}
+
+.slideNext-btn-2 {
+    cursor: pointer;
+    transition: 0.25s ease-in;
+}
+
+.slidePrev-btn-2 :hover {
+    transform: scale(1.25);
+    transition: 0.25s ease-in;
+}
+
+.slideNext-btn-2 :hover {
+    transform: scale(1.25);
+    transition: 0.25s ease-in;
+}
+
 .opportunities__wrapper {
     display: flex;
     justify-content: space-between;
@@ -72,6 +92,7 @@ body > div.wrapper > main > section.opportunities > div > div > div.opportunitie
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-bottom: 40px;
 }
 
 
