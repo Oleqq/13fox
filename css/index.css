@@ -385,6 +385,11 @@ div.swiper-slide.team-card.swiper-slide {
     transition: all 0.5s ease;
     cursor: pointer;
     box-shadow: 0 0 5px 5px #000 20;
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 119.99%;
 }
 .btn-wrap button:hover {
 
