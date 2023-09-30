@@ -1057,7 +1057,7 @@ body:after {
     background-color: #fff;
     border: 2px solid #fff;
     border-radius: 28px;
-    padding: 15px 25px;
+    padding: 15px 25px 12px;
     -webkit-transition: all .3s ease 0s;
     -o-transition: all .3s ease 0s;
     transition: all .3s ease 0s;
