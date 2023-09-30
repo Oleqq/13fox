@@ -1650,7 +1650,7 @@ body:after {
 
 
 .achievement-block__btn:hover {
-    background-color: #fff;
+    background-color: transparent;
     color: #9B5DE5;
 }
 
